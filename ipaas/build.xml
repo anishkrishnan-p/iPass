@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<project name="testBuild" default="buildDeployTest" basedir="." >
+        <!-- project.properties -->
+	<property file="project.properties"/>
+    <property file="jenkins.properties"/>
+	
+        <property name="workspace.dir" location="."/>
+        
+        <!-- remap the VCS structure defined in project.properties to have absolute paths -->
+        <property name="isProjectsDir" location="${sourcePackages}"/>
+        <property name="umProjectsDir" location="${umExport}"/>
+        
+        <property name="buildOutputDir" value="${workspace.dir}/target/${Environment}/build"/>
+        <property name="repositoryName" value="${Environment}"/>
+        <property name="testPackageNamePattern" value="*_Test"/>
+        <property name="jenkinsReportDir" value="${workspace.dir}/report"/>
+
+
+	<target name="buildDeployTest" depends="">
+        	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="buildDeployTest" inheritAll="true"/>
+	</target>
+
+        <target name="build" depends="">
+        	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="build" inheritAll="true"/>
+	</target>
+
+        <target name="deploy" depends="">
+        	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="deploy" inheritAll="true"/>
+	</target>	
+</project>
+
+

@@ -1,0 +1,17 @@
+<ehcache     
+    name="GniWKF_BPM_CacheManager">    
+    <diskStore         
+        path="./cacheStore/GniWKF_BPM_CacheManager"/>    
+    <defaultCache         
+        maxEntriesLocalHeap="0"/>    
+    <cache         
+        name="GniWKF_BPM_EventConfig_Cache"         
+        maxEntriesLocalHeap="1000"         
+        copyOnWrite="true"         
+        copyOnRead="true"         
+        overflowToOffHeap="false"         
+        cacheLoaderTimeoutMillis="30000">        
+        <persistence             
+            strategy="none"/>    
+    </cache>
+</ehcache>

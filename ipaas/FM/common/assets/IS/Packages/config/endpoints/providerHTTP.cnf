@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="WS_ALIAS_PROVIDER_BPM_6582" javaclass="com.wm.util.Values">
+    <value name="description">WS Alias BPM</value>
+    <record name="transportInfo" javaclass="com.wm.util.Values">
+      <value name="transportType">HTTP</value>
+      <value name="host">vmgniwfproject02</value>
+      <value name="port">6582</value>
+    </record>
+    <record name="messageInfo" javaclass="com.wm.util.Values">
+      <null name="kerberosSettings"/>
+      <null name="keyStoreAlias"/>
+      <null name="keyAlias"/>
+      <null name="trustStoreAlias"/>
+    </record>
+    <record name="messageAddressingProperties" javaclass="com.wm.util.Values">
+    </record>
+    <record name="reliableMessagingProperties" javaclass="com.wm.util.Values">
+      <value name="retransmissionInterval">6000</value>
+      <value name="acknowledgementInterval">3000</value>
+      <value name="exponentialBackoff">true</value>
+      <value name="inactivityTimeout">60</value>
+      <value name="inactivityTimeoutMeasure">seconds</value>
+      <value name="sequenceRemovalTimeout">600</value>
+      <value name="sequenceRemovalTimeoutMeasure">seconds</value>
+      <value name="invokeInOrder">false</value>
+      <value name="maximumRetransmissionCount">10</value>
+      <value name="storageType">nonpersistent</value>
+      <value name="houseKeepingInterval">20</value>
+      <value name="enable">false</value>
+    </record>
+    <value name="executeACL">Internal</value>
+  </record>
+</Values>

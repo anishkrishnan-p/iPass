@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="users" id="1" javaclass="com.wm.util.Values">
+    <record name="admin" id="25" javaclass="com.wm.app.b2b.server.User">
+      <value name="name" id="26">admin</value>
+      <object idref="4" name="pass"/>
+      <value name="passHash" id="27">{sha-256_v2}E/FHAyVoEoetfLEIbMHwultU1JV5k6Idwn43beQS1SikV5RhlsPYADAxMDAw</value>
+      <record name="members" id="28" javaclass="com.wm.util.Values">
+        <object idref="7" name="Replicators"/>
+        <object idref="8" name="Administrators"/>
+        <object idref="9" name="Everybody"/>
+        <value name="WS_wkfEc_group" id="29">WS_wkfEc_group</value>
+      </record>
+      <object idref="10" name="enabled"/>
+      <object idref="11" name="allowDigestAuth"/>
+      <value name="passwordUpdatedOn" id="30">2020-04-17 11:40:18 IST</value>
+      <array name="passwordHistory" type="record" depth="1" id="31">
+      </array>
+    </record>
+	</record>
+  <record name="groups" id="51" javaclass="com.wm.util.Values">
+      <record name="WS_wkfEc_group" id="66" javaclass="com.wm.app.b2b.server.Group">
+      <object idref="29" name="name"/>
+      <object idref="4" name="pass"/>
+      <null name="passHash"/>
+      <record name="members" id="67" javaclass="com.wm.util.Values">
+        <object idref="26" name="admin"/>
+      </record>
+      <object idref="10" name="enabled"/>
+    </record>
+   </record>
+  <object idref="72" name="allusers"/>
+  <object idref="13" name="adminUser"/>
+  <object idref="46" name="defUser"/>
+</Values>

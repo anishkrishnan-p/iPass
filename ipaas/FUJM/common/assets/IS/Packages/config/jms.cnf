@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <array name="JMSConfiguration" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="aliasName">GniWKF_BPMEvent_WM_JMS</value>
+        <value name="description">BPM event JMS connection alias</value>
+        <value name="clientID">IS_PE_DEV_5500</value>
+        <value name="user"></value>
+        <value name="handle">wm.is.admin.jmsConnectionAlias.GniWKF_BPMEvent_WM_JMS</value>
+        <value name="classLoader">INTEGRATION_SERVER</value>
+        <value name="enabled">true</value>
+        <value name="csqSize">-1</value>
+        <value name="csqDrainInOrder">true</value>
+        <value name="optTempQueueCreate">false</value>
+        <value name="transactionType">0</value>
+        <value name="systemGenerated">false</value>
+        <value name="manageDestinations">true</value>
+        <value name="allowNewConnectionPerTrigger">true</value>
+        <value name="producerCachingMode">0</value>
+        <value name="producerSessionPoolSize">0</value>
+        <value name="producerSessionPoolMinSize">0</value>
+        <value name="cacheProducersPoolSize">0</value>
+        <value name="cacheProducersPoolMinSize">0</value>
+        <value name="cacheProducersQueueList"></value>
+        <value name="cacheProducersTopicList"></value>
+        <number name="poolTimeout" type="java.lang.Integer">60000</number>
+        <number name="producerMaxRetryAttempts" type="java.lang.Long">0</number>
+        <number name="producerRetryInterval" type="java.lang.Long">0</number>
+        <jboolean name="allowReplyToConsumer">false</jboolean>
+        <value name="associationType">0</value>
+        <value name="jndi_jndiAliasName">GniWKF_BPM_WM_JNDI</value>
+        <value name="jndi_connectionFactoryLookupName">GniBPMEventConnectionFactory</value>
+        <value name="jndi_connectionFactoryUpdateType">NONE</value>
+        <number name="jndi_connectionFactoryPollingInterval" type="java.lang.Integer">0</number>
+        <jboolean name="jndi_enableFollowTheMaster">false</jboolean>
+        <jboolean name="jndi_automaticallyCreateUMAdminObjects">false</jboolean>
+        <number name="um_loggingOutput" type="java.lang.Integer">0</number>
+        <jboolean name="um_producerMessageTracking">false</jboolean>
+        <jboolean name="um_consumerMessageTracking">false</jboolean>
+        <null name="um_producerIncludedStrings"/>
+        <null name="um_consumerIncludedStrings"/>
+        <value name="providerName">Universal Messaging</value>
+        <value name="providerVersion">10.5.0 Build 130752 April 3 2020</value>
+        <number name="providerMajorVersion" type="java.lang.Integer">10</number>
+        <number name="providerMinorVersion" type="java.lang.Integer">5</number>
+      </record>
+	  <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="aliasName">GniWKF_BPMTask_WM_JMS</value>
+        <value name="description">BPM Task JMS connection alias</value>
+        <value name="clientID">IS_PE_DEV_5500</value>
+        <value name="user"></value>
+        <value name="handle">wm.is.admin.jmsConnectionAlias.GniWKF_BPMTask_WM_JMS</value>
+        <value name="classLoader">INTEGRATION_SERVER</value>
+        <value name="enabled">true</value>
+        <value name="csqSize">-1</value>
+        <value name="csqDrainInOrder">true</value>
+        <value name="optTempQueueCreate">false</value>
+        <value name="transactionType">0</value>
+        <value name="systemGenerated">false</value>
+        <value name="manageDestinations">true</value>
+        <value name="allowNewConnectionPerTrigger">true</value>
+        <value name="producerCachingMode">0</value>
+        <value name="producerSessionPoolSize">0</value>
+        <value name="producerSessionPoolMinSize">0</value>
+        <value name="cacheProducersPoolSize">0</value>
+        <value name="cacheProducersPoolMinSize">0</value>
+        <value name="cacheProducersQueueList"></value>
+        <value name="cacheProducersTopicList"></value>
+        <number name="poolTimeout" type="java.lang.Integer">60000</number>
+        <number name="producerMaxRetryAttempts" type="java.lang.Long">0</number>
+        <number name="producerRetryInterval" type="java.lang.Long">0</number>
+        <jboolean name="allowReplyToConsumer">false</jboolean>
+        <value name="associationType">0</value>
+        <value name="jndi_jndiAliasName">GniWKF_BPM_WM_JNDI</value>
+        <value name="jndi_connectionFactoryLookupName">GniBPMTaskConfigConnectionFactory</value>
+        <value name="jndi_connectionFactoryUpdateType">NONE</value>
+        <number name="jndi_connectionFactoryPollingInterval" type="java.lang.Integer">0</number>
+        <jboolean name="jndi_enableFollowTheMaster">false</jboolean>
+        <jboolean name="jndi_automaticallyCreateUMAdminObjects">false</jboolean>
+        <number name="um_loggingOutput" type="java.lang.Integer">0</number>
+        <jboolean name="um_producerMessageTracking">false</jboolean>
+        <jboolean name="um_consumerMessageTracking">false</jboolean>
+        <null name="um_producerIncludedStrings"/>
+        <null name="um_consumerIncludedStrings"/>
+        <value name="providerName">Universal Messaging</value>
+        <value name="providerVersion">10.5.0 Build 112850 September 20 2018</value>
+        <number name="providerMajorVersion" type="java.lang.Integer">10</number>
+        <number name="providerMinorVersion" type="java.lang.Integer">3</number>
+      </record>
+    </array>
+  </record>
+</IDataXMLCoder>

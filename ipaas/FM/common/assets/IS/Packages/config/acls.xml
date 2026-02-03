@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="defAccess">false</value>
+  <record name="groups" javaclass="com.wm.util.Values">
+     <record name="WS_GniBPMEventHandler_ACL" javaclass="com.wm.app.b2b.server.ACLGroup">
+      <value name="name">WS_GniBPMEventHandler_ACL</value>
+      <record name="allow" javaclass="com.wm.util.Values">
+        <value name="local/WS_wkfEc_group">local/WS_wkfEc_group</value>
+      </record>
+      <record name="deny" javaclass="com.wm.util.Values">
+      </record>	
+  </record>
+</Values>
