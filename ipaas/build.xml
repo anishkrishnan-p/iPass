@@ -11,7 +11,7 @@
         <property name="umProjectsDir" location="${umExport}"/>
         
         <property name="buildOutputDir" value="${workspace.dir}/target/${Environment}/build"/>
-        <property name="repositoryName" value="${Environment}"/>
+        <property name="repositoryName" value="DEV"/>
         <property name="testPackageNamePattern" value="*_Test"/>
         <property name="jenkinsReportDir" value="${workspace.dir}/report"/>
 
@@ -28,6 +28,7 @@
         	<ant dir="C:/webmethods-cicd/CIscripts" antfile="C:/webmethods-cicd/CIscripts/build.xml" target="deploy" inheritAll="true"/>
 	</target>	
 </project>
+
 
 
 
