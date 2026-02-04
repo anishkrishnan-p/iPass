@@ -59,7 +59,7 @@ else {
     }
 
     $finalResult += (Join-Path $projectPath "assets\IS\Packages")
-    $finalResult += (Join-Path $entityPath "common\assets\IS\Packages")
+  #  $finalResult += (Join-Path $entityPath "common\assets\IS\Packages")
 }
 
 # Convert to Jenkins property format
